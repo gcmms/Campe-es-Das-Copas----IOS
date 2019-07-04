@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		51348B2822CE40BA00A97A65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51348B2722CE40BA00A97A65 /* AppDelegate.swift */; };
-		51348B2A22CE40BA00A97A65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51348B2922CE40BA00A97A65 /* ViewController.swift */; };
 		51348B2D22CE40BA00A97A65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51348B2B22CE40BA00A97A65 /* Main.storyboard */; };
 		51348B2F22CE40BC00A97A65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51348B2E22CE40BC00A97A65 /* Assets.xcassets */; };
 		51348B3222CE40BC00A97A65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51348B3022CE40BC00A97A65 /* LaunchScreen.storyboard */; };
@@ -62,12 +61,14 @@
 		51F1BF4122CE4292006E7B14 /* Noruega.png in Resources */ = {isa = PBXBuildFile; fileRef = 51F1BF1022CE4291006E7B14 /* Noruega.png */; };
 		51F1BF4222CE4292006E7B14 /* Iugoslávia.png in Resources */ = {isa = PBXBuildFile; fileRef = 51F1BF1122CE4292006E7B14 /* Iugoslávia.png */; };
 		51F1BF4422CE429C006E7B14 /* winners.json in Resources */ = {isa = PBXBuildFile; fileRef = 51F1BF4322CE429C006E7B14 /* winners.json */; };
+		51F1BF4722CE458B006E7B14 /* WinnersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F1BF4622CE458B006E7B14 /* WinnersTableViewController.swift */; };
+		51F1BF4A22CE4637006E7B14 /* WordCupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F1BF4922CE4637006E7B14 /* WordCupViewController.swift */; };
+		51F1BF4C22CE467E006E7B14 /* WordCup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F1BF4B22CE467E006E7B14 /* WordCup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		51348B2422CE40BA00A97A65 /* Campão Da Copa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Campão Da Copa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51348B2722CE40BA00A97A65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		51348B2922CE40BA00A97A65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		51348B2C22CE40BA00A97A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51348B2E22CE40BC00A97A65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51348B3122CE40BC00A97A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -122,6 +123,9 @@
 		51F1BF1022CE4291006E7B14 /* Noruega.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Noruega.png; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Noruega.png"; sourceTree = "<group>"; };
 		51F1BF1122CE4292006E7B14 /* Iugoslávia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Iugoslávia.png"; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/Bandeiras/Iugoslávia.png"; sourceTree = "<group>"; };
 		51F1BF4322CE429C006E7B14 /* winners.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = winners.json; path = "../../../../../Downloads/Arquivos CampeoesDaCopa/winners.json"; sourceTree = "<group>"; };
+		51F1BF4622CE458B006E7B14 /* WinnersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WinnersTableViewController.swift; path = "Campão Da Copa/WinnersTableViewController.swift"; sourceTree = SOURCE_ROOT; };
+		51F1BF4922CE4637006E7B14 /* WordCupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCupViewController.swift; sourceTree = "<group>"; };
+		51F1BF4B22CE467E006E7B14 /* WordCup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,12 +158,12 @@
 		51348B2622CE40BA00A97A65 /* Campão Da Copa */ = {
 			isa = PBXGroup;
 			children = (
+				51F1BF4D22CE4694006E7B14 /* Model */,
+				51F1BF4822CE459A006E7B14 /* Controllers */,
 				51F1BEE022CE4264006E7B14 /* Files */,
 				51348B2722CE40BA00A97A65 /* AppDelegate.swift */,
-				51348B2922CE40BA00A97A65 /* ViewController.swift */,
-				51348B2B22CE40BA00A97A65 /* Main.storyboard */,
+				51F1BF4522CE44A9006E7B14 /* Views */,
 				51348B2E22CE40BC00A97A65 /* Assets.xcassets */,
-				51348B3022CE40BC00A97A65 /* LaunchScreen.storyboard */,
 				51348B3322CE40BC00A97A65 /* Info.plist */,
 			);
 			path = "Campão Da Copa";
@@ -220,6 +224,32 @@
 				51F1BF0F22CE4291006E7B14 /* Uruguai.png */,
 			);
 			path = Files;
+			sourceTree = "<group>";
+		};
+		51F1BF4522CE44A9006E7B14 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				51348B2B22CE40BA00A97A65 /* Main.storyboard */,
+				51348B3022CE40BC00A97A65 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		51F1BF4822CE459A006E7B14 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				51F1BF4622CE458B006E7B14 /* WinnersTableViewController.swift */,
+				51F1BF4922CE4637006E7B14 /* WordCupViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		51F1BF4D22CE4694006E7B14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				51F1BF4B22CE467E006E7B14 /* WordCup.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,8 +373,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51348B2A22CE40BA00A97A65 /* ViewController.swift in Sources */,
+				51F1BF4C22CE467E006E7B14 /* WordCup.swift in Sources */,
+				51F1BF4722CE458B006E7B14 /* WinnersTableViewController.swift in Sources */,
 				51348B2822CE40BA00A97A65 /* AppDelegate.swift in Sources */,
+				51F1BF4A22CE4637006E7B14 /* WordCupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
